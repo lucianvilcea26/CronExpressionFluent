@@ -1,17 +1,22 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
-  <PropertyGroup>
-	  <TargetFrameworks>netstandard2.1</TargetFrameworks>
-	  <Nullable>enable</Nullable>
-	  <ImplicitUsings>enable</ImplicitUsings>
-	  <PackageId>CronExpressionFluent</PackageId>
-	  <LangVersion>14</LangVersion>
-	  <Version>1.0.0</Version>
-	  <Authors>Alexandru Lucian Vilcea;Gabriel Cristian Sabou</Authors>
-	  <Description>A fluent builder API for constructing cron expressions in .NET. Supports Unix (5-field) and Quartz (6-field) formats with compile-time safety and IntelliSense guidance.</Description>
-	  <PackageTags>cron;fluent;builder;scheduling;quartz</PackageTags>
-	  <PackageLicenseExpression>MIT</PackageLicenseExpression>
-	  <GenerateDocumentationFile>true</GenerateDocumentationFile>
-  </PropertyGroup>
+	<PropertyGroup>
+		<TargetFrameworks>netstandard2.1</TargetFrameworks>
+		<Nullable>enable</Nullable>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<PackageId>CronExpressionFluent</PackageId>
+		<LangVersion>14</LangVersion>
+		<Version>1.0.0</Version>
+		<Authors>Alexandru Lucian Vilcea;Gabriel Cristian Sabou</Authors>
+		<Description>A fluent builder API for constructing cron expressions in .NET. Supports Unix (5-field) and Quartz (6-field) formats with compile-time safety and IntelliSense guidance.</Description>
+		<PackageTags>cron;fluent;builder;scheduling;quartz</PackageTags>
+		<PackageLicenseExpression>MIT</PackageLicenseExpression>
+		<GenerateDocumentationFile>true</GenerateDocumentationFile>
+		<PackageProjectUrl>https://github.com/lucianvilcea26/CronExpressionFluent</PackageProjectUrl>
+		<PackageReadmeFile>README.md</PackageReadmeFile>
+	</PropertyGroup>
 
+	<ItemGroup>
+		<None Include="../../README.md" Pack="true" PackagePath="/" />
+	</ItemGroup>
 </Project>

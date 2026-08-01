@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="CronExpressionFluent.Tests/CronExpressionFluent.Tests.csproj" Id="de369719-2c61-4203-b86e-ff1b99c02dc3" />
+  <Project Path="CronExpressionFluent/CronExpressionFluent.csproj" />
+</Solution>
